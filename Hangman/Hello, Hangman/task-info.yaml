@@ -1,0 +1,33 @@
+type: remote_edu
+files:
+- name: main.js
+  visible: true
+  text: |-
+    // Use "input()" to input a line from the user
+    // Use "input(str)" to print some text before requesting input
+    // You will need this in the following stages
+    const input = require('sync-input')
+
+    console.log("Hello, World!")
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/265/stages/1339/implement#comment
+check_profile: hyperskill_node_javascript
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    Please, print the output exactly like it is given in the example.
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    H A N G M A N
+    The game will be available soon.
+    Guess the word:
+  time: Wed, 15 Feb 2023 20:15:30 UTC
+record: 1
