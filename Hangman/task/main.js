@@ -7,6 +7,9 @@ console.log(`H A N G M A N
 The game will be available soon.`);
 
 const words = ['python', 'java', 'swift', 'javascript'];
-let userGuess = input('Guess the word:');
-const answer = userGuess == words[Math.floor(Math.random() * words.length)] ? "You survived!" : "You lost!";
+const hints = ['pyt---', 'jav-', 'swi--', 'jav-------'];
+const index = Math.floor(Math.random() * words.length);
+const computerChoice = words[index];
+let userGuess = input(`Guess the word: ${hints[index]}`);
+const answer = userGuess == words[index] ? "You survived!" : "You lost!";
 console.log(answer);
